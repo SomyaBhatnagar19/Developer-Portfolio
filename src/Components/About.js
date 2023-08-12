@@ -8,7 +8,7 @@ export default function About() {
       className="bg-gradient-to-r from-gray-800 to-gray-900 shadow-lg"
     >
       <div className="flex justify-center">
-        <h1 className="mt-4 title-font text-3xl mb-2 font-medium text-green-500">
+        <h1 className="mt-4 title-font text-3xl mb-2 font-medium text-green-500 ">
           About Me
         </h1>
       </div>
