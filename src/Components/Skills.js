@@ -11,6 +11,8 @@ export default function Skills() {
     "CSS",
     "Tailwind",
     "C++",
+    "REST API",
+    "Firebase",
   ];
 
   return (
@@ -21,21 +23,22 @@ export default function Skills() {
         </h4>
         <img className="w-24 h-auto mt-6 mb-8" alt="skills" src={skillsIcon} />
         <div className="grid grid-cols-2 gap-6 md:grid-cols-4">
-  {skills.map((skill, index) => (
-    <div key={index} className="p-4 bg-green-800 rounded-lg shadow text-white flex justify-between items-center">
-      <div className="flex items-center">
-        <img
-          className="w-6 h-auto mr-2"
-          alt='verified'
-          src={verifiedIcon}
-        />
-        {skill}
-      </div>
-      
-    </div>
-    
-  ))}
-</div>
+          {skills.map((skill, index) => (
+            <div
+              key={index}
+              className="p-4 bg-green-800 rounded-lg shadow text-white flex justify-between items-center"
+            >
+              <div className="flex items-center">
+                <img
+                  className="w-6 h-auto mr-2"
+                  alt="verified"
+                  src={verifiedIcon}
+                />
+                {skill} 
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );
